@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Đại nam University | All book</title>
+    <link rel="stylesheet" href="../Extension/css/book.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
+    <link rel="shortcut icon" href="https://dainam.edu.vn/favicon.png" type="image/x-icon">
+</head>
+<body>
+        <!---===============Sidebar================-->
+        <div class="sidebar">
+            <a href="#" class="logo">
+                <i class="ri-book-shelf-line"></i>
+                <h3 class="logo-name">
+                    BookStore<i class="ri-arrow-right-circle-line"></i>
+                </h3>
+            </a>
+            <ul class="side-menu">
+                <li ><a href="../Main/Dashboard.html"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+                <li class="active"><a href="#"><i class='bx bx-book-open'></i>All books</a></li>
+                <li ><a href="../Main/ERROR.html"><i class='bx ri-award-fill'></i>Best sellers</a></li>
+                <li ><a href="../Main/Pay.html"><i class=" bx ri-bank-card-fill"></i>Pay</a></li>
+            </ul>
+            <ul class="side-menu">
+                <li>
+                    <a href="../Login.html" class="logout"><i class='bx bx-log-out-circle' ></i>
+                        Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content">
+        <!---===============Navbar================-->
+            <nav>
+                <i class='bx bx-menu'></i>
+                <form action="#">
+                    <div class="form-input">
+                        <input type="search" placeholder="Search">
+                        <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                    </div>
+                </form>
+                <input type="checkbox" id="theme-toggle" hidden>
+                <label for="theme-toggle" class="theme-toggle"></label>
+                <a href="#" class="notif">
+                    <i class='bx bx-bell'></i>
+                </a>
+                <a href="https://www.dainam.edu.vn/vi" class="profile">
+                    <img src="https://dainam.edu.vn/favicon.png">
+                </a>
+            </nav>
+
+            <main>
+                <a class="title" href="#">All Book / Book sales and display page <i class="ri-arrow-right-down-line"></i></a>
+                <div class="book-title1">
+                    <h1>Welc<i class="ri-vip-crown-2-line"></i>me <br>
+                    I'm TECH bookstore </h1>
+                </div>
+                <div class="book-category">
+                    <div class="book-table">
+                        <div class="book-tag">
+                            <h4>Techlonogy</h4>
+                        </div>
+                        <div class="book-tag">
+                            <h4>Social</h4>
+                        </div>
+                        <div class="book-tag">
+                            <h4>Economic sector</h4>
+                        </div>
+                        <div class="book-tag">
+                            <h4>Law Industry</h4>
+                        </div>
+                        <div class="book-tag">
+                            <h4>Management</h4>
+                        </div>
+                        <div class="book-tag">
+                            <h4>Blog</h4>
+                        </div>
+                    </div>
+                    <div class="book-product">
+                        <span>#Product Page</span>
+                        <a href="./ERROR.html"><i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+                <section class="">
+                    <div class="book-title2">
+                        <h3>Collection of school books</h3>
+                        <div class="book-icon-cart">
+                            <i class="ri-shopping-cart-line"></i>
+                            <span>0</span>
+                        </div>
+                    </div>
+                    <!-- ========BookMenu========= -->
+                    <div class="book-menu">
+                        <div class="book-item">
+                            <div class="book-img">
+                                <img src="../Extension/img/book-1.png" alt="Book1">
+                                <span>- %</span>
+                                <i class="ri-heart-line"></i>
+                            </div>
+                            <h4 class="book-name">The lord of The Kings</h4>
+                            <p class="book-author">Sarah Geston</p>
+                            <div class="book-prices">$200</div>
+                            <div class="book-buttons">
+                                <button class="book-buy">Buy Now</button>
+                                <button class="book-add-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-cart-tab">
+                        <h1>Shopping Cart</h1>
+                        <div class="book-list-cart">
+                            <div class="book-item1">
+                                <div class="book-image">
+                                    <img src="../Extension/img/book-1.png" alt="">
+                                </div>
+                                <div class="book-total-price">200$</div>
+                                <div class="book-quality">
+                                    <span class="book-minus"><</span>
+                                    <span>1</span>
+                                    <span class="book-plus">></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-btn">
+                            <button class="book-close">CLOSE</button>
+                            <button class="book-check-out">CHECK OUT</button>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    <script src="../Extension/js/book.js"></script>
+    <script src="../Extension/js/Dashboard.js"></script>
+</body>
+</html>

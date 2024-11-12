@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Miniver&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --first-color: #dddbd7;
+    --button-color1: #e499c4 ;
+    --button-color2: #ecf791;
+    --background-color: #1b1b1b;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--first-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--background-color);
+    font-weight: 700;
+}
+
+.error-container {
+    width: 80%;
+    text-align: left;
+    position: relative;
+    z-index: 10;
+    padding: 120px 80px;
+}
+
+.error-title {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.error-404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 30px 0;
+    border: solid var(--button-color1);
+    border-radius: 30px;
+    width: 80px;
+    padding: 10px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    font-weight: 500;
+    color: #e499c4;
+}
+
+.error-404:hover {
+    background: var(--button-color1);
+    transition: 0.4s ease-in-out;
+    color: white;
+}
+
+.error-return {
+    color: var(--background-color);
+    background: var(--button-color2);
+    padding: 12px 30px;
+    width: 390px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+/* image */

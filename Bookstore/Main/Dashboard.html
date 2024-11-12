@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
+    <title>Trường Đại Học Đại Nam | Dnu Bookstore</title>
+    <link rel="stylesheet" href="../Extension/css/dashboard.css">
+    <link rel="shortcut icon" href="https://dainam.edu.vn/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!---Side bar-->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class="ri-book-shelf-line"></i>
+            <h3 class="logo-name">
+                BookStore<i class="ri-arrow-right-circle-line"></i>
+            </h3>
+        </a>
+        <ul class="side-menu">
+            <li class="active"><a href="#"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+            <li ><a href="../Main/Book.html"><i class='bx bx-book-open'></i>All books</a></li>
+            <li ><a href="../Main/ERROR.html"><i class='bx ri-award-fill'></i>Best sellers</a></li>
+            <li ><a href="../Main/Pay.html"><i class=" bx ri-bank-card-fill"></i>Pay</a></li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="../Login.html" class="logout"><i class='bx bx-log-out-circle' ></i>
+                    Logout
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--End of sidebar-->
+    <div class="content">
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+            <a href="#" class="notif">
+                <i class='bx bx-bell'></i>
+            </a>
+            <a href="https://www.dainam.edu.vn/vi" class="profile">
+                <img src="https://dainam.edu.vn/favicon.png">
+            </a>
+        </nav>
+            <!--End of navbar-->
+        <main>
+            <div class="header">
+                    <h2>Dashboard</h2>
+                <a href="#" class="comment">
+                    <i class='bx bx-message-alt-dots'></i>
+                    <span>Góp ý cho bọn mình</span>
+                </a>
+            </div>
+            <!--insights-->
+            <ul class="insights">
+                <li>
+                    <i class='bx bx-time' ></i>
+                    <span class="info">
+                        <p>Time</p>
+                    </span>
+                </li>
+                <li>
+                    <i class='bx bx-calendar-check'></i>
+                    <span class="info">
+                        <p>Activity</p>
+                    </span>  
+                </li>
+                <li>
+                    <i class='bx bx-show'></i>
+                    <span class="info">
+                        <p>History</p>
+                    </span>  
+                </li>
+                <li>
+                    <i class='bx bx-bookmark-heart'></i>
+                    <span class="info">
+                        <p>Favorite</p>
+                    </span>
+                </li>
+            </ul>
+            <!-- End of insights -->
+            <!--Target-->
+            <div class="target">
+                <div class="orders">
+                    <div class="header">
+                        <i class='bx bx-receipt'></i>
+                        <h3 >Nhiệm vụ hôm nay</h3>
+                        <button id="addbutton"><i class='bx bx-plus' ></i></button>
+                    </div>
+                    <input type="text" id="itemInput" placeholder="Cập nhập nhiệm vụ của bạn">
+                    <ul id="mylist">
+                        <li>Điểm danh</li>
+                        <li>Đọc sách 30 phút</li>
+                        <li>Hoàn thành báo cáo </li>
+                        <li>Tìm tài liệu cho NCKH</li>   
+                    </ul>
+                </div>
+                <div class="target-miss">
+                    <div class="header">
+                        <i class='bx bx-note'></i>
+                        <h3>Kết quả Nhiệm vụ của bạn</h3>
+                        <i class='bx bx-error-circle' ></i>
+                    </div>
+                    <ul class="task-list">
+                        <li class="complete">
+                            <div class="task-little">
+                                <i class='bx bx-check-circle' ></i>
+                                <p>Điểm danh</p>
+                            </div>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </li>
+                        <li class="not-complete">
+                            <div class="task-little">
+                                <i class='bx bx-x-circle' ></i>
+                                <p>Đọc sách 30 phút</p>
+                            </div>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </li>
+                        <li class="not-complete">
+                            <div class="task-little">
+                                <i class='bx bx-x-circle' ></i>
+                                <p>Hoàn thành báo cáo</p>
+                            </div>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--End of Target-->
+            <div class="contact">
+                <h2>Liên hệ </h2>
+            <div class="contact-main">
+                    <div class="map-contact">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.120482672035!2d105.75521357471217!3d20.947676190559616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313452eaa9c461c3%3A0x2a3e1c421f299adc!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyDEkOG6oWkgTmFt!5e0!3m2!1svi!2s!4v1729020226209!5m2!1svi!2s" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>  
+                    <div class="item-contact">
+                        <h2>Trung tâm công nghệ thông tin</h2>
+                        <h3>TRƯỜNG ĐẠI HỌC ĐẠI NAM</h3>
+                        <ul>
+                            <li><a href="#"><i class='bx bx-map'></i>1 P. Xốm, Phú Lâm, Hà Đông, Hà Nội, Việt Nam</a></li>
+                            <li><a href="dnu@dainam.edu.vn"><i class='bx bx-envelope' ></i>dnu@dainam.edu.vn</a></li>
+                            <li><a href="https://www.facebook.com/dainam.fit"><i class='bx bxl-facebook-circle' ></i>https://www.facebook.com/dainam.fit</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+<script src="../Extension/js/Dashboard.js"></script>
+</body>
+</html>

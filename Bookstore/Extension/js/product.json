@@ -1,0 +1,65 @@
+[
+    {
+        "imgSrc": "../Extension/img/book-2.png",
+        "discount": "-10%",
+        "name": "Simple & Minialist",
+        "author": "John Hawn",
+        "price": "$150"
+    },
+    {
+        "imgSrc": "../Extension/img/book-3.png",
+        "discount": "- %",
+        "name": "Muted color poster",
+        "author": "Youtube",
+        "price": "$180"
+    },
+    {
+        "imgSrc": "../Extension/img/book-4.png",
+        "discount": "-15%",
+        "name": "Douting Dreams",
+        "author": "Doe jaw",
+        "price": "$290"
+    },
+    {
+        "imgSrc": "../Extension/img/book-5.png",
+        "discount": "-50%",
+        "name": "Customer Your autumn Clothes",
+        "author": "Jane Law",
+        "price": "$160"
+    },
+    {
+        "imgSrc": "../Extension/img/book-6.png",
+        "discount": "-%",
+        "name": "Designed for work",
+        "author": "Tonny",
+        "price": "$180"
+    },
+    {
+        "imgSrc": "../Extension/img/book-7.png",
+        "discount": "-5%",
+        "name": "Plan tree for the future",
+        "author": "Jane Dom",
+        "price": "$180"
+    },
+    {
+        "imgSrc": "../Extension/img/book-8.png",
+        "discount": "-%",
+        "name": "Modern Abstract",
+        "author": "Jack lee",
+        "price": "$180"
+    },
+    {
+        "imgSrc": "../Extension/img/book-9.png",
+        "discount": "-%",
+        "name": "Bird park",
+        "author": "Bro",
+        "price": "$200"
+    },
+    {
+        "imgSrc": "../Extension/img/book-10.png",
+        "discount": "-12%",
+        "name": "Memories of the sword",
+        "author": "John Myers",
+        "price": "$280"
+    }
+]

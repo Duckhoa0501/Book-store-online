@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trường Đại Học Đại Nam | DNU BOOKSTORE</title>
+    <link rel="icon" type="image/png" href="./Logo.png">
+    <link rel="stylesheet" href="./Extension/css/Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
+    <link rel="shortcut icon" href="https://dainam.edu.vn/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form_container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon">
+                        <i class="ri-google-fill"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="ri-microsoft-fill"></i>
+                    </a>
+                </div>
+                <span>Or use your email for registeration</span>
+                <input type="text" placeholder="User code">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="password">
+                <button id="convert">Sign up</button>
+            </form>
+        </div>
+        <div class="form_container sign-in">
+            <form action="./Main/Dashboard.html">
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon">
+                        <i class="ri-google-fill"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="ri-microsoft-fill"></i>
+                    </a>
+                </div>
+                <span>Or use your email password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="password">
+                <a href="#" class="forget_password">Forget Your password</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel 
+                left">
+                    <h1>Welcome back</h1>
+                    <p>Enter your student code and information to register for a DNU Bookstore account.</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel 
+                right">
+                    <h1>Hello, DNUer!</h1>
+                    <p>Platform to look up, reference and search for information from thousands of different books by DNU students.</p>
+                    <button class="hidden" id="register">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./Extension/js/Login.js"></script>
+</body>
+</html>
